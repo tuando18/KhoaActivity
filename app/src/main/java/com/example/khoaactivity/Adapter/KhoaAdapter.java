@@ -39,7 +39,7 @@ public class KhoaAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View row;
         if(convertView == null){
-            row = View.inflate(context, R.layout.layout_row,null);
+            row = View.inflate(context, R.layout.layout_row_khoa,null);
         }else {
             row = convertView;
         }
